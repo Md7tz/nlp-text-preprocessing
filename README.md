@@ -37,6 +37,12 @@ This project demonstrates essential text preprocessing techniques for Natural La
 | Pre-trained Transformer | Sentiment analysis using pre-trained transformer models | [`pre-trained-transformer.ipynb`](sentiment/pre-trained-transformer.ipynb) |
 | Rule-based             | Rule-based sentiment analysis                        | [`rule-based.ipynb`](sentiment/rule-based.ipynb)       |
 
+### **Topic Modeling**
+| **Topic**              | **Description**                                      | **File**                                               |
+|------------------------|------------------------------------------------------|--------------------------------------------------------|
+| LDA                    | Topic modeling using Latent Dirichlet Allocation    | [`lda.ipynb`](topic-modeling/lda.ipynb)                |
+| LSA                    | Topic modeling using Latent Semantic Analysis     | [`lsa.ipynb`](topic-modeling/lsa.ipynb)                |
+
 ### **Full Pipeline**
 
 | **Topic**              | **Description**                                      | **File**                                               |
@@ -62,6 +68,7 @@ This project demonstrates essential text preprocessing techniques for Natural La
 | BBC News                           | Dataset containing BBC news articles            | [`bbc_news.csv`](data/bbc_news.csv)                    |
 | Book Reviews Sample               | Sample dataset of book reviews                  | [`book_reviews_sample.csv`](data/book_reviews_sample.csv) |
 | TripAdvisor Hotel Reviews         | A dataset of hotel reviews from TripAdvisor      | [`tripadvisor_hotel_reviews.csv`](data/tripadvisor_hotel_reviews.csv) |
+| News Articles                     | Dataset containing various news articles         | [`news_articles.csv`](data/news_articles.csv)          |
 
 ## 🚀 Getting Started
 
@@ -70,7 +77,7 @@ To get started with the project and explore the notebooks, follow these steps:
 1. Install the required dependencies:
 
     ```bash
-    pip install pandas nltk
+    pip install -r requirements.txt
     ```
 
 2. Start a Jupyter notebook:
@@ -79,4 +86,4 @@ To get started with the project and explore the notebooks, follow these steps:
     jupyter notebook
     ```
 
-3. Open and run the notebooks under the `preprocessing/`, `classification/`, `vectorization/`, and other directories to explore various NLP tasks.
+3. Open and run the notebooks under the `preprocessing/`, `classification/`, `vectorization/`, `topic-modelling`, `sentiment` to explore various NLP tasks.
