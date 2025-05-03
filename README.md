@@ -47,7 +47,7 @@ This project demonstrates essential text preprocessing techniques for Natural La
 
 | **Topic**              | **Description**                                      | **File**                                               |
 |------------------------|------------------------------------------------------|--------------------------------------------------------|
-| TripAdvisor Reviews    | Full pipeline on real-world TripAdvisor dataset      | [`text-processing-trip-advisor.ipynb`](text-processing-trip-advisor.ipynb) |
+| TripAdvisor Reviews    | Full preprocessing pipeline on real-world TripAdvisor dataset      | [`text-processing-trip-advisor.ipynb`](text-processing-trip-advisor.ipynb) |
 
 ### **Transformers**
 
@@ -60,6 +60,11 @@ This project demonstrates essential text preprocessing techniques for Natural La
 | **Topic**              | **Description**                                      | **File**                                               |
 |------------------------|------------------------------------------------------|--------------------------------------------------------|
 | BBC News Classification| Text classification with the BBC news dataset        | [`nlp-bbc_news.ipynb`](nlp-bbc_news.ipynb)             |
+
+### **Custom Classifier**
+| **Topic**              | **Description**                                      | **File**                                               |
+|------------------------|------------------------------------------------------|--------------------------------------------------------|
+| Custom Classifier      | Build a custom classifier Logistic Regression, Naive Bayes, Linear Support Vector Machine | [`custom-classifier.ipynb`](custom-classifier.ipynb)   |
 
 ## 📊 Datasets
 
@@ -77,7 +82,7 @@ To get started with the project and explore the notebooks, follow these steps:
 1. Install the required dependencies:
 
     ```bash
-    pip install -r requirements.txt
+    pip install nltk==3.9.1 pandas==2.2.3 matplotlib==3.10.0 spacy==3.8.3 textblob==0.18.0.post0 vaderSentiment==3.3.2 transformers==4.47.1 scikit-learn==1.6.0 gensim==4.3.3 seaborn==0.13.2 torch==2.5.1 ipywidgets==8.1.5
     ```
 
 2. Start a Jupyter notebook:
